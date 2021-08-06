@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Projet1.2</string>
+    <string name="projet1">Projet1: THE QUIZ</string>
+    <string name="question1">Quelle est la capitale de la France?</string>
+    <string name="question2">Quelle est la capitale de lItalie?</string>
+    <string name="answer1">St Denis</string>
+    <string name="answer2">Paris</string>
+    <string name="answer3">Londres</string>
+    <string name="answer4">New York</string>
+    <string name="answer1_2">Paris</string>
+    <string name="answer2_2">Venise</string>
+    <string name="answer3_2">Rome</string>
+    <string name="answer4_2">New York</string>
+</resources>
