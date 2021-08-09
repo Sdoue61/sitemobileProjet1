@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Projet1.2</string>
     <string name="projet1">Projet1: THE QUIZ</string>
+    <string name="debutbienvenue">Bienvenue!!</string>
+    <string name="debutconsigne">Indiquez Votre Nom</string>
+    <string name="debutjeu">CEST PARTI!!</string>
+    <string name="quest1">Question 1</string>
+    <string name="quest2">Question 2</string>
     <string name="question1">Quelle est la capitale de la France?</string>
     <string name="question2">Quelle est la capitale de lItalie?</string>
     <string name="answer1">St Denis</string>

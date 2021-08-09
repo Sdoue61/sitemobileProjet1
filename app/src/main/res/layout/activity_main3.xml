@@ -17,7 +17,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="@string/projet1"
+        android:text="@string/quest2"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34sp"
@@ -38,7 +38,9 @@
         android:text="@string/question2"
         android:textAlignment="center"
         android:textColor="#02266C"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
 
     <Space
         android:layout_width="match_parent"
@@ -51,7 +53,7 @@
         android:textAlignment="center">
 
         <Button
-            android:id="@+id/page3bt1"
+            android:id="@+id/ans1_2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,7 +75,7 @@
             app:rippleColor="#F1E8E8" />
 
         <Button
-            android:id="@+id/page3bt2"
+            android:id="@+id/ans2_2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -104,7 +106,7 @@
         android:textAlignment="center">
 
         <Button
-            android:id="@+id/page3bt3"
+            android:id="@+id/ans3_2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -126,7 +128,7 @@
             app:rippleColor="#F1E8E8" />
 
         <Button
-            android:id="@+id/page3bt4"
+            android:id="@+id/ans4_2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -171,11 +173,6 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/bt_retour"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Recommencer" />
     </LinearLayout>
 
 </LinearLayout>
