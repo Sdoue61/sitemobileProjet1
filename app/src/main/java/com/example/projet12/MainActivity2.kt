@@ -20,12 +20,9 @@ class MainActivity2 : AppCompatActivity() {
         val ans4 = findViewById<Button>(R.id.ans4)
         val resultat1 = findViewById<TextView>(R.id.TV_result)
 
-        val intent = Intent(this, MainActivity3::class.java)
-
         val builder = AlertDialog.Builder(this)
 
         var counter = 0
-        counter += 0
         resultat1.text = counter.toString()
 
         val myIntent = Intent(this, MainActivity3::class.java)
@@ -35,7 +32,6 @@ class MainActivity2 : AppCompatActivity() {
         builder.setMessage("La reponse etait Paris!")
         builder.setPositiveButton("Question Suivante") { _: DialogInterface, _: Int ->
             startActivity(myIntent)
-            startActivity(intent)
         }
 
             ans1.setOnClickListener {
@@ -45,11 +41,11 @@ class MainActivity2 : AppCompatActivity() {
             ans2.setOnClickListener {
                 counter += 1
                 resultat1.text = counter.toString()
+                myIntent.putExtra("compteur", counter)
                 builder.setTitle("BRAVO")
                 builder.setMessage("Tu es un genie!")
                 builder.setPositiveButton("Question Suivante") { _: DialogInterface, _: Int ->
                     startActivity(myIntent)
-                    startActivity(intent)
                 }
                 builder.show()
             }
